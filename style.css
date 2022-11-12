@@ -1,0 +1,199 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e3f2fd;
+}
+.testimonial {
+  position: relative;
+  max-width: 900px;
+  width: 100%;
+  padding: 50px 0;
+  overflow: hidden;
+}
+.testimonial .image {
+  height: 170px;
+  width: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.testimonial .slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 30px;
+  height: 100%;
+  width: 100%;
+}
+.slide p {
+  text-align: center;
+  padding: 0 160px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+}
+.slide .quote-icon {
+  font-size: 30px;
+  color: #4070f4;
+}
+.slide .details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.details .name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+.details .job {
+  font-size: 12px;
+  font-weight: 400;
+  color: #333;
+}
+/* swiper button css */
+.nav-btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transform: translateY(30px);
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+.nav-btn:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.nav-btn::after,
+.nav-btn::before {
+  font-size: 20px;
+  color: #fff;
+}
+.swiper-pagination-bullet {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.swiper-pagination-bullet-active {
+  background-color: #4070f4;
+}
+@media screen and (max-width: 768px) {
+  .slide p {
+    padding: 0 20px;
+  }
+  .nav-btn {
+    display: none;
+  }
+}
+
+.DownContainer {
+  height: 40vh;
+  background-color: rgb(1, 1, 73);
+}
+
+#container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+}
+
+#navBar {
+  width: 100vw;
+  height: 50px;
+  background-color: #f6f6f6;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.MCQ {
+  margin-top: 50px;
+  margin-left: 50px;
+  color: gray;
+}
+
+.Question {
+  margin-top: 40px;
+  color: gray;
+  font-weight: bold;
+}
+
+.Question2 {
+  margin-top: 30px;
+  margin-left: 50px;
+  color: gray;
+  font-weight: bold;
+}
+
+label,
+footer {
+  font-family: sans-serif;
+}
+
+label {
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+select {
+  font-size: 0.9rem;
+  padding: 2px 5px;
+}
+
+footer {
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.optionBar {
+  margin-left: 50px;
+  width: 80%;
+  height: 25%;
+  border-radius: 5px;
+}
+
+.Question3 {
+  margin-top: 30px;
+  margin-left: 50px;
+  color: gray;
+  font-weight: bold;
+}
+
+.QuestionTick {
+  margin-top: 10px;
+  margin-left: 50px;
+  color: gray;
+}
+
+.text-center {
+  width: 100%;
+}
+.rectangle {
+  margin-top: 2%;
+  margin-left: 25%;
+  height: 40px;
+  width: 50%;
+  background-color: whitesmoke;
+  border-radius: 5%;
+}
+.Question10 {
+  text-align: center;
+}
+
+.Boxes3 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
